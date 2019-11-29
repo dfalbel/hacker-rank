@@ -1,5 +1,3 @@
-import Control.Monad
-
 printn 0 el = return()
 printn n el = do
     print (read el :: Int)
